@@ -1,0 +1,31 @@
+#countdown_box {
+  width:90%;
+}
+
+.countdown_text_box {
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  text-align: left;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#countdown_progress {
+  width: 10%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  position: relative;
+}
+
+#countdown_text {
+  padding: 6px 10px 6px 16px;
+  position: absolute;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.countdown_expired #countdown_progress {
+  border-radius: 10px;
+}

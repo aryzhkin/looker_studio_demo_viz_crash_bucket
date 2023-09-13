@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": "concepts",
+            "label": "Concepts",
+            "elements": [
+                {
+                    "id": "tableDimension",
+                    "label": "Dimension",
+                    "type": "DIMENSION",
+                    "options": {
+                        "min": 0,
+                        "max": 1
+                    }
+                },
+                {
+                    "id": "tableMetric",
+                    "label": "Metric",
+                    "type": "METRIC",
+                    "options": {
+                        "min": 0,
+                        "max": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "style": [
+        {
+            "id": "progressBar",
+            "label": "Progress Bar",
+            "elements": [
+                {
+                    "type": "FILL_COLOR",
+                    "id": "progressBarColor",
+                    "label": "Progress Bar Color",
+                    "defaultValue": "#2356c0"
+                },
+                {
+                    "type": "FILL_COLOR",
+                    "id": "progressBarBgColor",
+                    "label": "Progress Bar Background Color",
+                    "defaultValue": "#1c253d"
+                }
+            ]
+        }
+    ]
+}

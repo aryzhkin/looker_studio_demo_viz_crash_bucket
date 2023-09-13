@@ -1,0 +1,25 @@
+{
+    "name": "Demo for issue with Custom Visualization's frowny/sad face",
+    "logoUrl": "",
+    "organization": "Acme",
+    "organizationUrl": "https://google.com/",
+    "termsOfServiceUrl": "https://google.com/",
+    "supportUrl": "https://google.com/",
+    "packageUrl": "https://google.com/",
+    "privacyPolicyUrl": "https://google.com/",
+    "description": "Demo custom vizualizations",
+    "devMode": true,
+    "components": [
+        {
+            "id": "tableChart",
+            "name": "Table",
+            "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/bar_chart.png",
+            "description": "...",
+            "resource": {
+                "js": "gs://demo-viz-crash/viz-codelab.js",
+                "config": "gs://demo-viz-crash/viz-codelab.json",
+                "css": "gs://demo-viz-crash/viz-codelab.css"
+            }
+        }
+    ]
+}
