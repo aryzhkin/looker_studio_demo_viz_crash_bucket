@@ -97,6 +97,9 @@ function updateCountdown(targetDate, startDate) {
 
 function drawViz(data) {
 
+  // To see that there is no default Data Ranges here
+  console.log(data);
+
   // Container setup.
   let container = document.getElementById('container');
   if (container) {
